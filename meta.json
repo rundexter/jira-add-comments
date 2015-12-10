@@ -4,23 +4,50 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "issue",
+            "title":"Issue ID or Key"
+        },
+        {
+            "id": "body",
+            "title":"Comment Body"
+        },
+        {
+            "id": "expand",
+            "title":"Expand"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"Comment ID"
+        },
+        {
+            "id": "self",
+            "title":"URL"
+        },
+        {
+            "id": "body",
+            "title":"Comment"
+        },
+        {
+            "id": "created",
+            "title":"Created"
+        },
+        {
+            "id": "updated",
+            "title":"Updated"
+        },
+        {
+            "id": "author",
+            "title":"Author"
+        },
+        {
+            "id": "visibility",
+            "title":"Visibility"
         }
-      */
     ],
+    "icon": "dex-jira",
     "title": "Jira Add Comment" /* Required.A display name for the module */
 }
